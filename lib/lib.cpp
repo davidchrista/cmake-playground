@@ -1,7 +1,11 @@
+#include "lib.h"
+
 #include <iostream>
 
-int main()
+namespace lib
+{
+void output()
 {
 	std::cout << "Hello CMake!" << std::endl;
-	return 0;
+}
 }
