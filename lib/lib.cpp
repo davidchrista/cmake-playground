@@ -2,6 +2,8 @@
 
 #include <iostream>
 
+#include "jwt-cpp/jwt.h"
+
 namespace lib
 {
 void output()
